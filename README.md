@@ -160,8 +160,6 @@ Same machine, same folder, same network. The only difference is group membership
 
 **"An object named 'Jones' cannot be found."** Check Names matches on display name and logon name, not surname alone — but the more useful lesson is to read "Select this object type" before assuming the name is wrong. A dialog searching for Groups will never find a User, however correctly it's typed.
 
-**Couldn't recall a user's password.** There is no way to look one up. Active Directory stores a hash, not the password, so a reset is the only option available to anyone including domain admins. That's why "can you just tell me my password?" is always answered with a reset.
-
 ---
 
 ## Kerberos and the clock
